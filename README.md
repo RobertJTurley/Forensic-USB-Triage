@@ -34,4 +34,4 @@ Finished reading all USB devices.
 
 ## Author
 
-**Liton** *Cybersecurity & DFIR Student*
+**Robert Turley (Liton)** *Cybersecurity & DFIR Student*
