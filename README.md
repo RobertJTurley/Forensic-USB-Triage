@@ -19,8 +19,19 @@ During an incident response engagement or digital investigation, identifying una
 ```bash
 python usb_triage.py
 
+```
+## Example Output
+
+The script will output an indexed list of the Device/Vendor IDs for every USB storage device historically connected to the machine.
+
+```text
 [0] Found USB Device: Disk&Ven_SanDisk&Prod_Cruzer_Glide&Rev_1.00
 [1] Found USB Device: Disk&Ven_Kingston&Prod_DataTraveler_3.0&Rev_PMAP
 [2] Found USB Device: Disk&Ven_WD&Prod_Elements_25A2&Rev_1014
 
 Finished reading all USB devices.
+```
+
+## Author
+
+**Liton** *Cybersecurity & DFIR Student*
