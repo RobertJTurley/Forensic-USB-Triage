@@ -22,16 +22,24 @@ python usb_triage.py
 ```
 ## Example Output
 
-The script will output an indexed list of the Device/Vendor IDs for every USB storage device historically connected to the machine.
+The script will output an indexed list of every USB storage device historically connected to the machine, including court-ready timestamps, plain-English friendly names, and exact serial numbers.
 
 ```text
-[0] Found USB Device: Disk&Ven_SanDisk&Prod_Cruzer_Glide&Rev_1.00
-[1] Found USB Device: Disk&Ven_Kingston&Prod_DataTraveler_3.0&Rev_PMAP
-[2] Found USB Device: Disk&Ven_WD&Prod_Elements_25A2&Rev_1014
+Extracting Court-Ready USB Evidence...
+
+---------------------------------------------------------------------------
+Timestamp    : 2026-05-31 18:10:59
+Device Name  : Generic MassStorageClass USB Device
+Make/Model   : Disk&Ven_Generic&Prod_MassStorageClass&Rev_1539
+Serial Number: 000000001539&0
+---------------------------------------------------------------------------
+Timestamp    : 2026-05-31 17:26:29
+Device Name  : SDXC Card
+Make/Model   : Disk&Ven_RSUER&Prod_RTSUERLUN0&Rev_1.00
+Serial Number: 0000
+---------------------------------------------------------------------------
 
 Finished reading all USB devices.
 ```
-
-## Author
 
 **Robert Turley (Liton)** *Cybersecurity & DFIR Student*
